@@ -14,7 +14,8 @@ function getKey(): string {
 $questions = [
     "Did you delete all the console logs?",
     "Did you change the version of the project?",
-    "Did you check if the build is building?"
+    "Did you check the .env files?"
+    "Did you check if the build is building?",
 ];
 
 foreach ($questions as $q) {
